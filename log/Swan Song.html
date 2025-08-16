@@ -1,0 +1,2070 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<title>Swan Song[all]</title>
+<style>
+*{margin:0;padding: 0;font-size: 14px;font-family : 'メイリオ',Meiryo,Osaka,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;}
+body{width: 100%;margin: 0;padding: 0;background-color: #f7f7f7;position: relative;}
+a{color: #666666;}
+a:hover{color: #CD0000;}
+h1{font-size: 21px;color: #666666;margin: 0px;padding: 0px;border-bottom: 1px solid #CCCCCC;}
+h2{font-size: 16px;color: #666666;margin: 5px;padding: 50px 0 0 0;border-bottom: 1px dotted #CCCCCC;}
+label{transition: all 0.2s;}
+#toggle{display: none;}
+#label_toggle{display: block;width: 100px;text-align: center;padding: 0;border: 2px solid #CD0000;background-color: #FFFFFF;color: #CD0000;border-radius: 15px;position: fixed;top: 10px;right: 10px;z-index: 1005;}
+#label_toggle:hover{background-color:#CD0000;color:#FFFFFF;}
+header{display: block;width: 0px;height: 100%;position: fixed;background-color: #FFFFFF;border-left: 1px solid #CCCCCC;z-index: 2;top: 0;right: 0;overflow-y: auto;overflow-x: hidden;transition: all 0.2s;padding: 50px 0 0 0;box-sizing: border-box;}
+#toggle:checked + header{width: 200px;}
+header label{display: block;width: 180px;margin:0 5px;padding: 5px;border-bottom: 1px dotted #EFEFEF;}
+header label input[type="checkbox"]{margin-right: 5px;}
+label:hover{cursor:pointer;background-color: #EFEFEF;}
+.wrapper{display: block;width: calc(100% - 30px);max-width: 1100px;padding: 30px 15px 100px 15px;margin: 0 AUTO;overflow: hidden;position: relative;background-color: #FFFFFF;}
+/* ログ部分 */
+dl{display: block;margin: 0;padding: 3px;box-sizing: border-box;}
+dl::after{display: block;content: "";clear: both;}
+dt{display: block;font-size: 0.8em;font-weight: bold;float: left;width: 100px;margin: 0;padding: 5px 5px;text-align: right;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+dd{display: block;width: calc(100% - 120px);margin: 0;padding: 2px;float: right;line-height: 1.8em;}
+.zatsudan{width: 95%;margin: 0 0 0 AUTO;background:#f7f7f7;border-left:1px solid #CCCCCC;}
+.other{background-color:#fff7ef;}
+.secret{width: 98%;margin: 0 0 0 AUTO;border-left:3px solid #CCCCCC;}
+.group{background:#f9f9f9;border-left:1px solid #CCCCCC;}
+@media (max-width:480px){
+  dt{display: inline-block;float: none;width: calc(100% - 6px);margin: 0;padding: 3px 0 0 3px;text-align: left;}
+  dd{display: inline-block;width: calc(100% - 6px);padding: 3px;float: none;}
+}
+</style>
+<style>
+.tab_0{}
+.tab_0.selected{display: none;}
+.tab_1{}
+.tab_1.selected{display: none;}
+
+</style>
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+<style>* { font-family: sans-serif !important; }</style>
+<script src="norobot.js"></script>
+<script>if (!window.location.href.includes("forceReloaded")) { const sep = window.location.href.includes("?") ? "&" : "?"; window.location.href = window.location.href + sep + "forceReloaded=1"; }</script>
+</head>
+<body>
+<label for="toggle" id="label_toggle">表示/非表示</label>
+<input type="checkbox" name="toggle" id="toggle">
+<header>
+<label>▽ 非表示にするタブ</label>
+<label for="main"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="main">メイン</label>
+<label for="zatsudan"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="zatsudan">雑談</label>
+<label for="tab_0"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="tab_0">成長</label><label for="tab_1"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="tab_1">情報</label>
+</header>
+<div class="wrapper">
+<h1>Swan Song[all]</h1>
+<h2 id="day1">Swan Song[all]</h2>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>これでいっか……（BGM） </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>いい曲だぁ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>ここね </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>あれなら画像トリミングしてくるけど </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>しなくていいよ！！！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>おけ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ちなみに俺はPLもキャラアイコンで喋ります </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>ところで俺のチャリできたうっきーを見てくれ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>うぇいうぇい　シャケナベイベー </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>画面がちいせえ……<br>ちょっとパソコンに変えてから見ます </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>誤爆リスクの低さ的にはそっちの方がいい感じする、、 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>これラフできたときおもろすぎて笑った </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>チャリできたすぎる </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>とても好き </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>チャリできた草 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>準備できたら言ってね </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>生還しました </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>おか </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>いつでもおっけー </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>うっきーかわい！！！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>一応7版のるるぶ出してきたけど多分なんもわかってない </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>チャリできたよ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>最初夕飯用意しながらやります </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>うわメモ書いてねえ！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>始めてていいです（） </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>じゃあ、よろしく...... </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>チャットの色だけ変えといてね！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>あそうか </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>あまって </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>この色にするね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>これ、屋敷に来た動機を確認しないとなんだけど </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>みんなどういった理由で来た感じ？ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ファンです </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>詩のファンです </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>除霊しに.................. </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>じょ、除霊しになんですけど...... </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>ふふwww </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>いけるか？除霊しにという理由で </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>ふむ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>まぁ大丈夫でしょう！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>なんか聞かれたらそれっぽい理由つけますんで...... </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>大丈夫大丈夫 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>よし、聞けたところではじめるぞー </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>はい！ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>よろしゃす！ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>はーい！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>パソコンで入ってたけど夕飯準備するのにパソコン見れねーじゃんって思ってまたスマホから来た（忙） </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>かわいそう </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>大変ﾀﾞﾈ… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>家札 礼部は若くして名声を得た詩人だった。<br>しかし、近年は新作の詩を発表することもなく山奥の洋館で隠棲しており、若い人の中にはその名を知らない者も増えている。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そんな詩人、 家札 礼部が亡くなった。<br>彼の死は事故死とも自殺とも言われており、彼の亡くなった洋館には、傑作と言われる未発表の遺作原稿が眠ったままだという。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>1 週間ほど前に家札が亡くなったことを知ったあなたたちは、ある者はその遺稿を探すために、ある者はその死の真相を知るために、ある者はただその追悼のために、ある者は除霊をするために、それぞれの目的を持って山奥にある家札の洋館を訪れる。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>ある者は除霊をするために、 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>家札さんの親戚のだれかから頼まれたんだよ多分サ...... </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>まあ除霊というかお清めになるかもだけど </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そんな中、あなたたちは山奥にある家札邸の前で偶然鉢合わせることでしょう。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>RPしてよけりゃ言って～ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そうしてあなたたちは揃って洋館の門をくぐるのでした。 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>除霊っていうと異端感あったけどお清めっていうとめちゃくちゃいそう感増す </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ここから自由探索になります。<br>ちなみに皆さん移動方法はどんな感じ？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>うっきっきの場合お清め（物理）になるけど </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>洋館のくぐる </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>キレそう </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>門を消すな </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>これここで言っていい感じ？メインでいう？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>メインでいいよー </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>交通手段使っての徒歩想定です </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>thx </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>舗道があるなら車ですね。なければ徒歩。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>うっきーはチャリ。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>なな</dt><dd>山奥だし公共交通機関大分早いうちに途絶えるよね<br>まぁけどいけるとこまで行って徒歩かな </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>チャリだった。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>なるほどね。 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>やだ！！山道チャリなんて死んじゃう！！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>え〜とですね、家札邸は麓から車で2時間ほどかかる山奥にあるみたいなんですよ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>徒歩だときついって感じですかね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>めちゃくそクタクタかもなって……ってかんじ。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>なな</dt><dd>タクシー使えるならタクシーかな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>じゃあヒッチハイクして来ることにするか　<br>楓さんの車乗れたら導入しやすそうだし　<br>無理そうならタクシーで </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>タクシーでもいいよ！ヒッチハイクでも </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>乗せてもいいよ～ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>なな</dt><dd>じゃあタクシーで！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>なな</dt><dd>優しさ〜！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>じゃあヒッチハイクしてくか<br>RPいります？　<br>時間食っちゃうしなくてもいいかな...... </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>お任せするよ！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>やってもやらんでも<br>やった方が今後に繋げやすそうだったらそれでも </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>じゃ、するか </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>あいさ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>b（ヒッチハイクの構え） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>車で山道走ってます、ぶーん </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ヒッチハイカーがいたので止まります </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>窓うぃーん </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あぁ、悪いがこの奥に行く用なら乗せてくんねぇか？<br>この服だとどうもな」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（長い振袖をひらひらさせている） </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>うっきっき常に数珠ﾊﾞｻｧ！してるのジワるな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「確かに動きにくそうだし汚れそう～。僕も丁度山奥の方に行こうと思ってたからいいよ、乗って」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「助手席でも後部座席でもどうぞどうぞ～」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「助かる。この先だと行き先なんて決まってるようなもんだろ、後ろで休ませてもらうぜ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（後部座席に座るとすぐに寝息を立て始める） </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>自己紹介とかはまとめてしたいし寝ます。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>おい！！！！！礼儀を、なせ<br> </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>なな</dt><dd>肝が太い </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「はいｈ……寝てる」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「まあいっか……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>再び車発進させます。<br>目的地へGO！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>は〜い </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>ありがとな～楓さん </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ｂ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>ヒッチハイカー？ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>なな</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ちょっと思ったけども </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>編集できるのマジで助かるな～ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では楓くんの車で2人は家札邸まで来れますね。<br>2人が屋敷に着くと、門の前に1人女性がいることに気がつけます。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>氷刃ちゃんは少し先に着いていたということで。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ここが……家札先生の屋敷なのね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきーを叩き起こして合流しよう。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「おーい、着いたよー」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>バシバシ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ふが、......あ、ついたか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「僕達より先に来てた人もいるみたい」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>氷刃ちゃん見ながら </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ふ～ん、そんな有名人だったのか......」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら？貴方たちもこの屋敷に何か用事があるのかしら」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>見られてるな〜ってのに気づいて話しかけかけ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まぁな、ただの仕事だよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……僕もそんな感じ～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（ほれ、と数珠を見せびらかす） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「仕事ね、山奥までご苦労さまね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>普通に考えて遺稿探しに家まで来るファンやばくない？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>ｳﾝ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>確かに </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>でも来た（ドン！） </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あんたは？　その調子じゃ仕事じゃねえんだろ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>熱狂的なファンだったんだよね（しらんけど） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、分かるかしら<br>ちょっとね、夢見がちに言うならお宝探し……ってところかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お宝……？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>すごいいい詩らしいしファンにもなるって </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「はぁ......余計に山奥までご苦労なこってってとこだが......」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「私も物を書く仕事をしているのだけれど、ここの家主の書く詩がとても好きだったのよ<br>仕事も詰まってるけど……インスピレーションのためって無理を言って来たの」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>......て打つとめちゃ時間かかるな　下のダイアログみたいなの </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「へえ～……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「いいね。僕もお宝探したいな～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>KP見逃してたら悪いんですけど今何月くらいですか？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「だから、半分仕事半分趣味みたいなものね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、一緒にする？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そうするか～」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>季節はとくに指定ないんだよね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「羨ましいぜ俺ばっかり仕事でよ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>おけ！RP組み込むか悩んだだけだから大丈夫 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>現時刻は10時くらいです。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「じゃ、俺はさっさとこの家の人んとこ行くけどよ。<br>あんたらも挨拶くらいすんだろ？<br>どうせだし一緒に行こうぜ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうね、ご一緒させていただくわ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「さんせ～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきーの後ろにつきます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>チャイムあれば鳴らしたいです </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>チャイムはないですね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>ふ～む探すついでにそのへん目星しようかと思ったけどなんかあるかしら </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そうですね。ちょっと描写を挟みます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ここって今も誰かいるのかな」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>門をくぐると前庭が広がっており、屋敷が奥に見える。庭は老人の一人住まいのはずだが、 綺麗に手入れがされている。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「さすがに誰かいなきゃ困るが......<br>何も言わずに勝手にできねえし」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……もしかしていなかったりするのか？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「先生は人嫌いって聞いたことはあったけれど……」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>屋敷自体はかなり古そうな印象の 2 階建ての洋館で、屋根にも窓が見える。屋根裏部屋があることが想像できることでしょう。<br>1階向かって左の部屋の窓は、内側から板が打ち付けらえているのが見えます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>うっきっき多分二人ほど家札さんの情報知らないと思うからそういう、それ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「綺麗な廃墟」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>で、ここで目星かアイデアがふれますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>全員？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「さすがに呼び鈴くらいは押さねぇとな……」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 52 ＞ 52 ＞ レギュラー成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 39 ＞ 39 ＞ レギュラー成功</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 60 ＞ 60 ＞ レギュラー成功</dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>目星 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>成功技能、クリア後に成長チェックあるからメモしようね </dd></dl>
+<dl style="color:#00bcd4" class="group tab_0"><dt>霜降谷 氷刃</dt><dd>目星 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>あ～い </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>( ˙꒳˙ )ゞ </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>白峰 雨月</dt><dd>目星 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>家札邸には電線が来ていないこと気がつけますね。電気が通っていないみたいです。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>目星しかいないのである！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>誰か1人アイデア振ってると思い込んで目星からとか言ってたわ　草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ここ電気来てないっぽい」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「げ、マジか。誰もいねぇじゃん」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「みたいね　電気のない生活なんて考えられないから感心するわ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「え～サボろうかな誰も見てねぇし」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ダメだよ、仕事はしなきゃ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、そうね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「めんどくせ～！」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「しないならせめてお宝探し手伝ってよ～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「それは手伝う、ここまで送ってもらってるしな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら、義理堅いのね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「やった。見つけたら僕にも見せてね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（そのために来たし）」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「どうだかな、じゃあもう入っちゃおうぜ勝手に」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>門を開けようとしています </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「この屋敷、誰もいないなら僕にくれないかな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>加勢します。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>入る前に入口に献花とかしとこ(持ち物に花を生やそうとしてる) </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>ささみ</dt><dd>ﾆｮｷ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ええで。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>良識のあるファンだ。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>💐ｿｯ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>門はもうくぐってるので！開けるなら扉かな。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ういっす。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃ扉で～　ﾊﾞｧﾝ！！！！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お邪魔しま～す」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。では鍵はかかっていなかったようで、入ることができるでしょう。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「お邪魔します」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ｹﾞﾎｯ　さすがに空気悪いな」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そしてここで個別情報をお渡ししますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そう？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>はいはい。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ﾏﾁﾏ~ｽ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>待つ間お手洗いいってきま </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>てら </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>いってら〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ファンの2人は、家札 礼部が天涯孤独で人間嫌いということを知っています。仕事関連でもあまり人と関わりたがらなかったそうです。<br>そしてオカルトに傾倒していたらしいですね。<br>家札の詩に関しては、評価は未だに高く、遺稿が見つかればその価値は1千万円にもなるといわれているとファンの中では有名ですね。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>ささみ</dt><dd>もど </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>おか </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>おかか </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そしてこれは全員。<br>家札は階段から転落して死んだと公式には「事故死」とされていますが、週刊誌やネット上の噂などでは「自殺・他殺・事故死」など様々な流言飛語が飛び交っています。<br>中にはオカルト系の掲示板で「オカルトに傾倒していた家札が召喚した悪魔に殺された」などのおよそ真実とは思えない内容も書かれている。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>雨月さんは彼の遠い親戚からそう聞かされたということにしましょう。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>くん </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>依頼元の人間にね。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>脳がバグりました！！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まあ空気も悪くなるだろうな、死因について色々周りが囁いてるわけだし。<br>悪いものが溜まりやすくなるんだそういうのは」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>くんでもあってるからよし！！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふぅん、そういうものなのね」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>じゃあくんでもさんでもいいな！（逃） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「結局どれが本当なのかな、死因」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「まあ、知ったところでって気もするけど」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「火のない所に煙は立たねぇっていうし、まぁ事故じゃないんだろうが」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「他人の死に方についてとやかく言うのはあまり好ましくないのだけれど、確かに何も無かったとは言い難い感じはするわよね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ふーん……」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ちなみに靴で中に入れるタイプの洋館です。<br>玄関に入るとまず廊下があるのですが、そこに大きな振り子時計があります。時刻は正確です。<br>それと最近付いたような泥のあとがありますね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「なんにせよ頼まれたのはお清めくらいだしなぁ……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「変な格好してるな～って思ってたけど、そういうことか」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>探索者は家札さんがどのくらい前に死んだかって知ってる？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>盤面に地図を貼りました。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>わーい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>thx </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まぁな……ん、ありゃゼンマイ式か？　今日日珍しいな。<br>どっかの親戚の家にあった気がする」<br>（時計に近寄りつつ） </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ゼンマイ式っつったけど電池式の可能性全然あったわ！w </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>少なくとも一週間ほど前に亡くなったことは知っているね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>楓は泥の方見ようかな。足跡とか？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「泥の後……亡くなった後他に誰か来たのかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>いや時計に泥が……？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いたるところに泥はついているね。<br>アイデアがふれるよ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=60　【アイデア/INT】 (1D100&lt;=60) ボーナス・ペナルティダイス[0] ＞ 58 ＞ 58 ＞ レギュラー成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>時計はなんか目星とかできたりします？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>時計は特にないかな。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ではアイデアの情報ですが、家札が亡くなった日以降、雨は降っていないということに思い至ります。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ちなみに10時って午前だよな？？？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>そうだよ。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「泥ってことは、地面がぬかるんでたってことだけど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「僕の記憶違いじゃなかったら、家札礼部が死んでから雨は降ってないような気がする」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら……不思議ね なら何故なのかしら」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（なんか話してるな～って二人のとこ戻ります） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「局所的に降ってた可能性は否めないけど～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……でも、やっぱり無かったと思う」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>二人は泥を見ながら </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>話しています。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……？」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>途中送信よくやるけど笑ってください </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「泥が、好きなのか……？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「雨が降っていたのなら外ももう少しぬかるんでたり水溜まりとかがあったりするものね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「えっ、そんなことは無いけれど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「泥がついてるのが不自然だなって話してたの」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あ～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まあ……古い家だしそういうこともあるんじゃないか？（思考放棄）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そうか～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ええ……まぁ、けど分からないものをずっと考えても仕方ないわね……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ていうか、本当に誰もいないのかな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「いないなら僕宝探し始めちゃおっかな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うずうず </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうみたいよね、早く行きましょ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「俺もなんだかんだ仕事しなきゃだし、本人の部屋なり空気のいいところなり見つけたいんだ。<br>宝探しのついでにでいい」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「じゃあとりあえず近くの部屋に入りましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「僕、目張りされてた部屋が気になるけど……　そうしよっか」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（ガイガーカウンターと電磁波探知機両手にズカズカついていきます） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>そしたら手前左の部屋かな。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そわね </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>だね<br>目張りされてたのも左側だったからその後に流れで行きたみ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ほいほい。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>手前左の部屋に入りますね。<br>ここは居間のようで、ソファとテーブル、サイドボードが置かれていますね。<br>室内に対して目星を振ることもできます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「居間だ～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まあ玄関横だしそうだよな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>目星振るか。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「さすがにこんな所に宝は置かねぇだろうけど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 64 ＞ 64 ＞ レギュラー成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ふりま～す </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 37 ＞ 37 ＞ レギュラー成功</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「本人の自室か書斎か倉庫か……みたいな所にあると思うのだけれど」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>一応振っとこ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 42 ＞ 42 ＞ レギュラー成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「あとは屋根裏とかね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>屋根裏部屋ありそうだったなと。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>確かに </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「からくり屋敷みたいになってたらすげ～んだけどな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「回転する壁、あるかな～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「落とし穴とかなぁ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、もしあったら楽しそうね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「（あったらそら事故死もするよな……）」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>目星に成功した人は、テーブルに置きっぱなしの食器がどれも2つずつあるということに気がつけますね。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>めっちゃ同じくらいの目線で話してたけどうっきーすげえ年少じゃん </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>そうだよ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ほぼ10歳下 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「また不自然なのがある」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>テーブルに寄ります。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「なんだなんだ」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>ｽｩｰｰｰｯ（元シナリオの情報の置き方がおかしいことに気が付いた顔） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「先生は一人暮らしじゃなかったのかしら……？」 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>ﾜｧ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>かわいそう </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>ちょくちょく改変入れないとだめかもしんねぇ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>全然まつわよ～ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>ありがて〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そんなはずないんだけどな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「もしかして、この屋敷ってもう買われてる？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そんな家主が亡くなってすぐに？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「さぁ……わざわざ依頼して清める前に売るか？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「放浪者が住み着いてたりして……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「放浪者こんなところにいないか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>山道車で二時間！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「可能性として有り得るかもしれないけど……山奥だものね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>テーブルには食器のほかに封の空いたA 4の茶封筒が重なって2つ置かれていることもわかるよ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん、なんかこっちにあるぜ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ﾕﾋﾞｻｼｰ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うん？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら、封筒」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>手に取って見てみよ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「封筒と言えば原稿用紙……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「亡くなる前に客人でも来てたのか？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>氷刃ちゃんの手元覗き込みます。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>二つ置かれてますが、上と下どっちの封筒を見てみるかな？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>上かな〜取りやすさ的に </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ほい。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>じゃあ下取るか。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「あ、二つあった」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ひょいっと。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ｿﾜｿﾜ…… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（とても気にしている） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>かわい〜！よく見えるようにしとこ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では上の封筒。<br>編集部からの原稿再確認依頼のようで、簡単な送り状と原稿の本文が入っています。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきー、一番背低いからね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>原稿用紙！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>一番ちっちゃくて一番子供<br>つまりようじょ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら……！これは原稿かしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「原稿……？」 </dd></dl>
+<dl style="color:#607d8b" class="group tab_1"><dt>KP</dt><dd>編集部から2度目の原稿確認依頼<br><br>・送り状<br><br>「ご修正依頼のありました、使用人の方に関する部分を削除いたしましたので、お手数ではございますが、再度ご確認をお願いいたします。」<br><br><br><br>・原稿本文<br><br>「『孤高の天才詩人-家札礼部の半生-』<br><br>若干17歳で詩人として鮮烈に文壇デビューを果たした家札礼部。次々と佳作名作を発表し続けていたが、不惑を過ぎ山奥に隠居した彼の人に本編集部はインタビューをすることに成功した。家札は15年前に某県山中に建つ豪奢な洋館を買い上げ、現在はその館でひっそりと暮らしていた。(後略）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>氷刃ちゃんの方気にしながら、自分が取った封筒の中も確認します。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>下の封筒も編集部からのもので、原稿確認依頼のようですね。同じように簡単な送り状と原稿の本文が入っています。 </dd></dl>
+<dl style="color:#00bcd4" class="group tab_1"><dt>霜降谷 氷刃</dt><dd> </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「こっちもだ」 </dd></dl>
+<dl style="color:#607d8b" class="group tab_1"><dt>KP</dt><dd>●編集部からの原稿確認依頼<br><br><br>・送り状<br><br>「この度は取材へのご協力ありがとうございます。『孤高の天才詩人-家札礼部の半生-』のインタビュー記事の草稿が出来上がりましたのでご確認をお願いできれば幸いです。」<br><br><br><br>・原稿本文<br><br>「『孤高の天才詩人-家札礼部の半生-』<br><br>若干17歳で詩人として鮮烈に文壇デビューを果たした家札礼部。次々と佳作名作を発表し続けていたが、不惑を過ぎ山奥に隠居した彼の人に本編集部はインタビューをすることに成功した。家札は15年前に某県山中に建つ豪奢な洋館を買い上げ、現在は大柄な使用人とふたり、ひっそりと暮らしていた。（後略）」 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>情報見ながら打ってたら打つとこ間違えちゃった〜！！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>あるある。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「原稿？　例の詩人のか？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「これは……残念ながら詩の原稿ではないみたい」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「家札 礼部」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「む……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>残念そうにしている。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「家札礼部の半生ですって」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「な～んだ、宝じゃねぇのか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「宝ではないね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「あれ、内容も一緒？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>比較したいのでテーブルに広げます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ばらばら～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>横に並べよ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「違いは……使用人に関する記述の有無かしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「修正前と修正後って感じ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「僕の見てた方には使用人の記述があるから、こっちが前だね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ふむ……（読みつつ）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「なんだ、一人暮らしじゃなかったんだ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ね、でも何か隠したい理由でもあったのかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（僕達不法侵入者？）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>今更 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まあそういう人に見せたかったとかかもしれないぜ、案外」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ぼくは仕事なので……✋😁 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そうかな～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「確かに 孤独な創作者ってのは何処か惹かれる所もあるものね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（どうしよう。客が来たのに茶も出ねえのか～くらい言っておけば誤魔化せるかな）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>今更すぎん？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>原稿しまいます。ｿｯ…… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まっ、ここにはなんもなかったわけだし別の部屋行こうぜ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうしましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お宝探すぞ～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>もう不法侵入のことは忘れてます。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>机の上を何も無かったように整えて左の部屋行きましょ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>GOGO！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はーい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>左の部屋は書庫です。<br>窓は内側から板が打ち付けられていて、陽の光が入らないようになっているため暗い。<br>かなり大きな書庫で、蔵書数もかなり多い。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「暗いわね……これは日焼け対策かしら」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>あれ？って思ったら<br>氷刃ちゃんのイニシアティブは90やよ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>簡単に見回すと、オカルト関連の書籍が多いことがわかります。<br>書庫では目星か図書館がふれます。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>DEX90だよな……？ってなってた </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>書き間違えてたﾜ<br>ありがと〜！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「そうなんだろうな。<br>こっから宝見つけるとなると一日じゃ足りなそうだが……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>めぼめぼ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 3 ＞ 3 ＞ イクストリーム成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ﾋｭ~ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いいねぇ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>じゃあ図書館振ろ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=75　【図書館】 (1D100&lt;=75) ボーナス・ペナルティダイス[0] ＞ 88 ＞ 88 ＞ 失敗</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>( ᐛ👐 ) </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「電気通ってないから照明もつけれないね。暗いなあ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>では図書館をば </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【図書館】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 65 ＞ 65 ＞ レギュラー成功</dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>図書館 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>それでは雨月さんは"Sepher Yetsirah"という本を、楓くんはヘブライ語辞書をみつけることができました。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>自己紹介してなくね？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>してないやん草 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>ﾎﾝﾏﾔ! </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「…………？」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>探索者いつも自己紹介忘れる </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>名乗らずとも分かり合えるってワケ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>雨月さんを雨月くんって呼びたくなるからやっぱりそう呼びます！！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「…………」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「読めねぇ～～～～～ッ！！！」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ヘブライ語の辞書なんてあるんだ。へ～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「何か面白いものでも見つかった？」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>わ～い本人ちゃん呼び苦手だから喜ぶよ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>物珍しそうに掲げてます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ヘブライ語の辞書」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「せふえぁーいぇとしらふ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「なんて？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「せ、せえふえぁ～いぇとしらふ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（本を渡します） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……最近の若者言語？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そうかも。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>最近の若者は不思議な言葉を使うなぁ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>雨月ちゃんの本はヘブライ語ですか？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>知識-30%に成功したら何語か分かりそうです。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=50　【知識/EDU】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 55 ＞ 55 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>本人も持ってるし辞書の話聞いてるし私もふっていいか？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いいよ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>くそぅ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=55 【知識】 (1D100&lt;=55) ボーナス・ペナルティダイス[0] ＞ 70 ＞ 70 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ﾐ~ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ワカラナーイ！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>わからないんですけど〜 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「英語？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>私も振るぞ！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「僕これ知らない」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いいよ〜ﾝ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=93　【知識/EDU】 (1D100&lt;=93) ボーナス・ペナルティダイス[0] ＞ 6 ＞ 6 ＞ イクストリーム成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ここのメンバーEDUたっか </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>はい勝ち </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>つっよ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>すっげ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>めっちゃわかりました。これヘブライ語です。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「これは……ヘブライ語ね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>めっちゃわかる！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ヘブライ語？　なにそれ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ヘブライ語の辞書を抱えながら。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「何それって言われても……言語だけれど……貴方の持ってる辞書とか、ちょうどそうよ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>氷刃ちゃんがそれを解読したところでですね、雨月くん。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>はいな～ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そういえばそうだった」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、抜けてるのね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>さきほど本を抜き取った場所に、なにやらメモが落ちていることに気がつけます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（手に取ります） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい、それは家札が書いたと思われる先程の本の日本語訳のメモのようでした。（イクス効果） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>これを使えば30分くらいで読めそうだ……！！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>やったね！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん～……あ、これ翻訳か？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>みてみて～します二人に </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「日本語だ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「辞書は必要なさそう？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら、やったわね！それがあれば読みやすそうね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>辞書は脇に置いておきます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「それでも結構な量だけど時短して読めそうだな」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>置かれました。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「じゃあ一応要るか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>手元に戻します。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>戻しました。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「これがなんの本なのかそもそも宝関係あるかもさっぱりわかんねえけど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「気になるやつは全部見ちゃおう」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「それは確かにね 　でも、関係ないとも言いきれないし、読んでみましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>辞書広げてます。皆で読む？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あ、今ここで読むか？<br>俺もうちょっとほかの部屋見たいんだけど」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>おっと </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>30分かかるならほかの部屋みれるんじゃない？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「まあ～、お宝も探したいしね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>え～発言のタイミングが、かぶりました。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「でも、本重いんだよね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>分担する感じかな……？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「持ち歩くよりは一人残って読むのがいいかも」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「人選はお任せする～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そうわね～一応時計あるし時短できるならしたい </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「なら、私が残りましょうか？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「いいの？　えーと……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「君誰だっけ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「えっ、誰って……そういえば自己紹介してなかったわね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>まったく探索者は。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>頷いてますね。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ごめんなさい、私としたことが<br>私は霜降谷 氷刃よ　一応漫画家をしているわ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>探索者ってばそういうとこあるよね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>しっかりしてよね〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「へ～、漫画家。僕も絵を描いてるから、もしかしたら知ってるかも」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「僕は朽無 楓だよ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（自分も名乗ったほうがいいのかな……の顔をしている） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきーの方も見ます。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>じっ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あっ俺は白峰、下は雨月。<br>職業はゴーストハンター」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ゴーストバスター？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ゴーストハンターなんて初めて見た気がするわ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まあ除霊師っつったほうが早いな。<br>正確にはもうちょっと科学よりだけど」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>拳で除霊 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>数珠じゃらじゃら </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>科学より（物理） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「霊感ある？」 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>科学とは……？？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まぁな」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>CoCにおいての霊感の設定なに！！？！？！になるけど神話生物いるならまあ幽霊とかもいるやろ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「じゃあ雨月が家札礼部の霊の声を聞いてくれれば、お宝の場所もすぐわかりそうだね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「......」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>急に部屋の扉の鍵が閉まるのは幽霊のせいだよ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ごめん俺イタコではねぇからさ......」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>なるほどね。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「界隈にも色々な種類があるものね……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そうなんだ……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ちょっと残念そう。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「やっぱ実際見たら殴らねぇといけねぇしさ......」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「殴……？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「殴……？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「......？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「まあいっか。じゃあ、氷刃が残るってことで」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ええ、任せて<br>そっちで何かあったらまた呼んで」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「僕と雨月は家札礼部の霊探し～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>親指立ててます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ああ、一応暗いし気をつけてな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>辞書あげよう。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「おっ任せろ」（指ボキボキ） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お腹あたり殴れば吐くでしょう」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>辞書もらいーの </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「（あれ......盗賊......？）」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ｺﾜｲ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「物騒ね……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「じゃあまたね、氷刃」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>もう一方の扉から部屋出ようか。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>GOGO </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ええ、健闘を祈ってるわ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ではここから別行動ですね〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>2人は部屋から出ていけるでしょう。<br>どこまでいきましょうか。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>上の扉から出て、とりあえず左開けるか。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「この辺のドア手当たり次第に開けて見てみるか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「いえすまーむ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>左ｶﾞﾁｬｱ！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……（不機嫌そうな顔）」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>ここであってる？（マップ） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>女の子扱いしてごめん。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ななちゃちょっと暇な役させてごめんな～ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>あってるつもり </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>おけ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>おけみ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>全然ええわよ〜！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>まあ説明してないし全然ね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ごめん（反省はしてない） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ふふw </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なんか損した気分だぜ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ガチャリ　どうやらお風呂のようでした。薪で沸かすタイプの五右衛門風呂です。<br>脱衣所と浴室に分かれています。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お風呂だ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「うおっ贅沢だな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「五右衛門風呂、温泉以外で初めて見た」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ここでも目星がふれますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>珍しそうにキョロキョロしてます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「な、見慣れねぇや」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 65 ＞ 65 ＞ レギュラー成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>せっかくだしふるぜ！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 50 ＞ 50 ＞ レギュラー成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ぴったし </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ファンブルしねぇかな～と思って振っている </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では2人は脱衣籠の中から雑誌を見つけることができますね。 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>エンターテイナーの思想 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>後半でファンブルするよ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>うっきーの色、ダイス失敗した時の文字の色と一緒だよね </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>そうだね </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>つまり </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「なんだ～？」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>縁が </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「いかがわしい本？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「え！　マジ！？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ひょいと取ろう。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>わくわくしながら見ます </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>月刊世界怪奇大全という雑誌ですね。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いかがわしい本をわくわくしながら見るの草だな。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ふむ　オカルト持ってるんだけどなんか追加でわかったらうれしいな　それか読んだことあるとか </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「いかめしい本だった」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>19歳ほぼ男子　いかがわしい本に興味深々 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>思春期？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ちょっと遅めやね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ﾝ~特に追加で分かることはないかな… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>はいさ～ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>中見よう。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「なんだただのオカルト本か」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ぺらぺらり～の </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「家札礼部はオカルトマニア」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ふーん」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「深入りしてないといいけどな、変な噂もあるし」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。開いてみるとゴーレムについて書かれたところに開かれた癖がついていることがわかりますね。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>使用人か〜？？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ここのところ、よく読んでたみたい」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ゴーレム？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ゴーレム……？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>再度オカルトなど…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>泥を思い出しています。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「この屋敷、ゴーレムいるのかな」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まさか、と言いたいが大柄の使用人ってのもなぁ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「それに、ゴーレムって泥でできてなかった？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>俺にゴーレムの知識がどれだけあるんだ！？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>リアル知識。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>普通に一般常識か </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>オカルトは〜振ってもいいけどここの情報と被ってしまうので雑誌の情報をタブに貼っちゃうね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うぇーい。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>成長させたいし振っちゃお～^^ </dd></dl>
+<dl style="color:#607d8b" class="group tab_1"><dt>KP</dt><dd>●月刊世界怪奇大全<br>「ゴーレムとは、ユダヤ教の伝承に登場する自分で動く泥人形である。<br>作った主人の命令だけを忠実に実行する召し使いかロボットのような存在だが、使役するには厳格な制約が数多くあり、それを守らないと狂暴化してしまう。<br><br>魔力を持つ者が土をこねて人形を作り、悪魔的な儀式を行った後、呪文を唱え、「אמת」（emeth、真理）という文字を書いた羊皮紙を人形の額に貼り付けることで完成する。<br>ゴーレムを壊す時には、「אמת」（emeth）の「א」（ e ）の一文字を消し、「מת」（meth、死んだ）にすれば良いとされる。<br>製造すると時間と共に自然に巨大化していく。<br><br>ある伝承では男がゴーレムを作ったが大きくなりすぎた為、額に手が届かなくなり止められなくなった。そこで男はゴーレムに自分の靴を脱がせるように命じ、ゴーレムがしゃがんだ時に額の文字を消した。その途端ゴーレムは大量の粘土となって男の上に崩れ落ち、男は圧死してしまった。」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=35 【オカルト】 (1D100&lt;=35) ボーナス・ペナルティダイス[0] ＞ 1 ＞ 1 ＞ クリティカル</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おい </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>白峰 雨月</dt><dd>オカルトc </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>どうすればいいの（困惑） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そうだな〜 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なんか…100円見つけたとか...... </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>なかったってわけ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>雨月くんは思い出します。<br>この屋敷にはいたるところに泥が付いていました。<br>泥のついた靴で歩いたような跡もあれば、泥のついた手で触ったような跡もある。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>しかし今まで通ってきた部屋の中の泥の跡には、靴底の跡や指紋が残っているような様子はなかったですね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「泥……そういえば最初は汚れだと思ってたんだけどさ、この家よく見たら泥だらけなんだよな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そうだね～」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>もうちょっと先に出そうかなって思ってた情報を先だしです。ﾋﾟｺｰﾝときたんだよね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「人間がつけたようなソレでもないし。朽無が言うようにやっぱりゴーレムがいたのかもしれねぇ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>今めちゃくちゃでかくなってたりするのかな…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「家札礼部の死因にはそのゴーレムも関わっていたりして」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>雑誌読みながら。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ああ、妙な噂が立つのも納得がいくし」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「だとするとお清めとかそういうレベルじゃないよな……（ブツブツ）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「これ、氷刃にも見せてあげよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>雑誌を持ち出します。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん？　ああ、そろそろ読み終わった頃合いだろうしな」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ご機嫌な誤字 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うん。様子見に行こ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>帰還！！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>氷刃ちゃんのところ戻るぞ～。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ご機嫌な誤字で笑ってる </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>名推理でウキウキしちゃった </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ウッキーだけに </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>がはは </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>笑っちゃって悔しい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では戻ってくることができました。<br>氷刃ちゃんもちょうど読み終わった頃でしたね。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>😁😁😁 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>処（無慈悲） </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>；； </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>wwwww </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「お～い、どうだ？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら、おかえりなさい」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ちょうど読み終わったとこよ<br>そっちは何か見つかったかしら？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「オカルト雑誌を見つけた～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>掲げてます。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「雑誌……生前読んでたものかしら<br>何かそこに気になる所でもあったの？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うん」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ゴーレムの頁を開いて渡そう。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ここ、開き癖がついてる。ちょっと気になるなって」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ゴーレム……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まあまずは読んでみてくれ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふぅん……手に負えなくなるまで大きくなるのは不便ね……<br>もしかして、先生はゴーレムを作ったりしたのかしら」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>読み読み </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「そう、ここって異様に泥汚れが多いし、人工的でもねぇからさ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>（共有するタイミングで本の内容貼るね） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ゴーレムはまだいて、もしかしたら家札礼部の死にも関わってるのかなって思った」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「現実的ではないけどね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「可能性としては有り得るわね<br>人嫌いだったそうだし、ゴーレムなら人じゃないからいいって理由で作ったとも考えられるし……<br>まだ推測の域をでないけれどね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「っと、私の方も情報共有しないといけないわね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん、頼む」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>本の内容共有します！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>楓くんがファンのくせにやたら生意気にフルネーム呼びするのはあれです、著名人をフルネームで呼ぶノリ　太宰治とかのノリ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>わかるわかる </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>あるある </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（人間のお皿使うゴーレム……）」 </dd></dl>
+<dl style="color:#607d8b" class="group tab_1"><dt>KP</dt><dd>"Sepher Yetsirah"『創造の書』<br><br>ゴーレムを創造するためには、ゴーレムの体を泥等で作成した後、1D6 + 4 日間 の儀式を行い、コストとしてMPを16 一時的に支払い、POWを25を永久的に支払う。<br> 儀式の終わりに 1D6の正気度ポイントを失う。<br>創造された後、ゴーレムは毎週SIZとSTRが5ポイントずつ増加してゆき、併せて毎週5%ずつ創造主の支配を逃れる 確率も上がってゆく。(20 週で 100%) 支配下を脱したゴーレムは創造主を滅ぼそうとする。ゴーレムの支配を取り戻すためには、ゴーレムから隠れながら創造と同じ儀式を再び繰り返す必要がある。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>うわっめんど </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>大変すぎる </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>お前を作ったのに殺そうとすな </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>えー、これを読んだあなたたちは呪文《ゴーレムの創造》を習得、〈オカルト〉を+4%獲得します。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「これ、ざっくり言うとゴーレムの作り方が載ってるみたいよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うわぉ。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>SAN値減少はないらしいです。やったね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>わ～いオカルト増えた </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……いよいよ真実味増して来た」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「うへ、こんなんやってたわけか？<br>そこまでして生み出したかったのかよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「なんでだろ。不便だったのかな。それともやっぱり一人は寂しかった？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……いや、ただのオカルトマニアか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うへーって感じ。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ちょっと私には分からない感覚ね<br>でも創作者ってものは大体変わってるものだものね……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「わざわざこんな本翻訳までして熱意が凄いが……<br>まあやる奴はやるか」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ま、流石にそんだけでかくなるならこの家にはもういねぇだろ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「だといいけど。やっぱり泥が気になるな～」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ゴーレムを除霊（物理）はちょっと厳しいかもです </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「割と最近のものみたいだものね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うんうんと頷いてます。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>それはそう </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「え～……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「まあ僕達はお宝探しに来ただけだから、関わらないようにしよ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「（もしまだいたらアブねぇし除霊……？　したほうがいいんだろうな……）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ヨシ、うっきーに任せよう。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>こぶしでバトル！！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>いけー！うっきー！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そろそろ片付けて次行こ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうしましょ　日が暮れる前には帰りたいものね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あいよ、まあ風呂の隣は便所だろうけど一応見てくか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「案外無さそうな場所にあることもある」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あれごめん更衣室と風呂なんだっけこのマップの2部屋 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>違うか </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「可能性は0じゃないものね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>んや、左の部屋が風呂と脱衣所。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おけけ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>じゃあお向かい行きましょ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>GOGO </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ごー </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>風呂の隣の部屋に行く感じ？？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そそ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うむ。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。これますが〜まぁ予想通りお手洗いです。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>幸運ファンブルでGが出ます。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>最悪 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「水道は通ってるのかな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>流してみます。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>流れますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「流石に水はあった。無いと生活できないもんね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「便所いかなくて平気か？　皆よさそうなら別行こうぜ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「とりあえずはいいや」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「大丈夫よ、行きましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>じゃ、右かあ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>かな？あの倉庫みたいな位置にあるとこ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>それは次の次では？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>右（図的には中央上） </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あそうか </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>廊下に見えてた（） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はぁい。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草やで </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>なるほどね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>右隣の部屋はキッチンのようでした。<br>一通りのキッチン用品があり、火種に使えるマッチや、オイルランプのオイルもある。<br>通常使うと思われる箇所のところどころに泥が付いている。水瓶が置かれているが中は空になっている。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「泥まみれ～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「料理してたのかな、ゴーレムが」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ここは……ゴーレムが使ってたのかもな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「かもしれないわね<br>正直あまり衛生的とは言えないのだけれど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>火をつけろと言われている気がする。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>この火種の多さね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん？　水道通ってるのに水瓶は空なんだな」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>放火エンド… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「入れてあげるか～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そういうものなの……？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「めんどくさがったのかもな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>水瓶を持ち上げます。持ち上がりますか？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>目星とかあります？きょろきょろ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>水瓶は持ち上がります。<br>目星情報は特になく、普通のキッチンだな〜って感じです。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>もしものためにマッチ借りとくか〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……これ、水入れたら重くなりそう」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「まぁ、水の分重さが増えるものね<br>入れてみる？何の意味があるか分からないけど」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ん～、いいや。肉体労働はちょっと」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「水道代かけても悪いしな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>持ち上げて置かれる水瓶。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうよね　にしても空だった理由……ゴーレムが水浴びに使った？なんてね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「どろっどろだな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>キッチンはなんも無さそうかな？<br>裏口っぽいの気になる。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「そもそも水道あるんだし水瓶なんていらなそうなのにな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「大量に必要な時があるのかも」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「こう、だばーって」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「うーん……？そういうものなのかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「さあ……？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「まあ魔術やってるような人らしいし……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「やっぱりゴーレムの水浴び……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>右上に扉あるよね？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ありますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「あれって裏口かな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>扉指差し。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「場所的にはそんな気がするわね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「普通に外に繋がってるんじゃないか？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ふーん。ちょっと開けてみていい？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>近寄りながら。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ま、俺の家じゃねぇし」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ええ、どうぞ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「わーい」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ｶﾞﾁｬｱ！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はーい。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>裏口の扉を開けると、外の庭に繋がりますね。<br>そして庭の片隅に、土が盛られて山になっている部分があり、その小山の前には新しそうな花が置かれています。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>墓？？？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ぽい </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「土の山がある」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ほー </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ここでアイデアがふれるよ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=60　【アイデア/INT】 (1D100&lt;=60) ボーナス・ペナルティダイス[0] ＞ 79 ＞ 79 ＞ 失敗</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=65　【アイデア/INT】 (1D100&lt;=65) ボーナス・ペナルティダイス[0] ＞ 65 ＞ 65 ＞ レギュラー成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>めそめそ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ぴった </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あっ私も振っていいのか　そっち寄ってることにするわ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=65 【アイデア】 (1D100&lt;=65) ボーナス・ペナルティダイス[0] ＞ 87 ＞ 87 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>たけーの </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>氷刃ちゃんはそれが墓なのではないかということと、「家札には花を供えるような親類や友人はいないはずだが」 ということに思い至ります。ファンだからわかりますね。（人間嫌いなので） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ゴーレムの墓……！？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「それ……墓じゃない？花、誰が添えたのかしらね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「正直こう言うとあれだけれども供えてくれる近しい人はいないはずだけれど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「やっぱりかあ。献花されてるからそんな気はしてた」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>(家の前に花供えてきた人が言う) </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そもそもこれって誰の墓？　家札礼部の墓なの？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「けっこう新しい花だしな。<br>故人が亡くなったのは一週間前だし……<br>家札さんが添えたものじゃねぇとなると……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>外に出てまじまじと見ます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ご、ゴーレム……は違うだろうし……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「こう……仮説なんだけど、割とゴーレムって人間味が強かったりして一緒に食事を摂ったりする程の仲だった……ってことないかしら」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ついていって出よ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「なくはないかも。食器の数とかもあるし」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ちゃんと支配できているならまあ……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「人間を必要以上に遠ざけていたのも、ゴーレムがいたから？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「有り得るわね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「真の人嫌いに加えてってかんじかもなぁ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「しかし新しい花があることを考えると支配下にはあったようだしな、死因が謎になる」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「てっきり故人はゴーレムに殺されたもんだとおもってたんだがな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うーん……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>新しめな花を見て首を傾げている。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ま、考えてもしかたねぇか！」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>！ｗのノリ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ここにお宝は無さそう」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>せやな！w </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「戻って別の部屋見てみようぜ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>Uターンしよ。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うん」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はいー </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>では今日はここまで </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>は～～い </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>はーい！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>進捗大丈夫そ？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>おつかりおつかり </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>大丈夫〜 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>助かる～ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>よかったよかった </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>1時間長いだけで結構進むわね。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>んね </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ドタバタしたがよかった </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>いつももっと短いんだ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>いつも21～0時 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>なるほどね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>21時〜1時だった頃が懐かしい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>死ぬ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>皆早寝になったんだなぁ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>そうかなぁ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>21～5時 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>俺はね、多分老いただけ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>それはごく稀 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>やーい </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>まあでもそう…… </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>変わらんのよ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>老いってこわいね </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>本当にそう </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>もう体のあちこちに支障が出てる。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>脆 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>考えに若さが…… </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>なくなってきて…… </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>みんなずっと17歳くらいのイメージなのにな </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>もう22だよ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>しっかりして！　まだ22でしょ！ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>人生100年時代なのにな……これから老いる一方だよ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>一生学生気分 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>じゃ、おつかれさんした（） </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>あっはい。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>はい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>お疲れ様でした…… </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>おつおつかいさん！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ログ伸びちゃうから！ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>お疲れ様でした〜！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>全体ログが </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>お疲れ様でした！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>はい。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>はい </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>| ε:) </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>じゃがいも潰しながら参戦 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>赤西ってだれや！？ってなったわ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>なんかささみくれのアカウントで全然連携できないから別アカウントで連携したがうまくいかなかった  許せん </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>可哀想 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ちーす。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>お湯沸かしてます。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>先に言っておくが、ねむねむなのでこの前以上にボケボケかもしれん。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>あいさ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>目の覚める展開にしてやる </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>準備できたら始めるけどじゃがいもとお湯沸かし大丈夫？ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>物理的にな！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>あと2分待ちだけどスマホから見てるので大丈夫。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>マヨネーズ入れてるけど大丈夫 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>はーい。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>やるよお </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>かかってこい </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>٩('ω')ﻭ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>今度こそあの倉庫みたいなとこいくか </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>せやね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>キッチン戻って地図上右の扉から出て、あれ〜あんなところに扉が〜！（白々） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>裏口も右だからまた外出てるとも取れる。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「さて、他に部屋とは行ったものの……あとは2階くらいか？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>（時計の方に近寄りつつドアを見つけま〜す） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「階段どこだっけ〜」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……ん？ ここにもドアがあるな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら、本当だわ<br>入ってみましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「まだ部屋あったんだ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきーが見つけた扉までズカズカ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「収納くらいのデカさみてぇだけど」<br>（開けます） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「じゃ、物置？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「多分……いやゴーレムがいるような家だからな……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ここなら何かありそうね」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>開けてみると、そこは物置のようでした。<br>掃除用具やらクリスマスツリーやハロウィンのカボチャなど、季節ものの飾りがしまわれている。<br>季節ものの飾りは埃が積もっていて10年以上使われた形跡がないが、物置の内部全体に埃が積もっているわけではないですね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うわあ、すごい。クリスマスツリーだ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「家札礼部とは全然結びつかない」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「凄い埃だが……なんでこんなもの買ったんだ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「一人暮らしの家にはまず無いよね。まあ、人に寄るけど」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「祝い事に積極的だったのかしら」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ここで全員アイデアどうぞ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=65 【アイデア】 (1D100&lt;=65) ボーナス・ペナルティダイス[0] ＞ 74 ＞ 74 ＞ 失敗</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>10年か…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=60　【アイデア/INT】 (1D100&lt;=60) ボーナス・ペナルティダイス[0] ＞ 4 ＞ 4 ＞ イクストリーム成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あけぇ〜のよ字面が </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>うわ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=65　【アイデア/INT】 (1D100&lt;=65) ボーナス・ペナルティダイス[0] ＞ 22 ＞ 22 ＞ ハード成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>皆閃くねぇ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ふむ。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では二人は居間にあった編集部からの原稿の内容を思い出します。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>『家札は15年前に某県山中に建つ豪奢な洋館を買い上げ……』<br><br>この飾りつけは、家札の前の住人が使っていたものではないか、と思いつきます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd> </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>15年前じゃないんか </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>あれやっぱそうよね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>え </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>ちょっとまってて </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>情報と食い違いが </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>私もあれ？ってなった </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>あー… </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>これ、シナリオ本文と情報の貼り付け用テキストの年数が食い違ってる。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ポテサラできた </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>あ〜ね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>シナリオ作者さん、いったいどっちが正しい情報なんですか。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>多分15年前じゃない？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>とりあえず15年に修正しておきます。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>15のがぽい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>埃の感じ的には </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>不惑を過ぎてから住んでるっぽいし </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そういえば……　家札礼部がこの屋敷を買い取ったのって15年前だっけ」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>貼り付け用テキストしか信じない </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「もしかして、その前の持ち主のだったりするのかしら」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>💯 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「10年以上使われてなさそうだしね～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「はぁ〜そんな話あったっけか」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「よく覚えてんなぁ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「なんか覚えてた」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、さすがね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>本当にファンか？　さては作者自身には興味ないタイプ？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ファンの皆が作者に興味あるとは限らんしね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>興味があるのは作品だけ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>実際楓くんはそっち側っぽい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なるほどね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ここは泥もついてない？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>目星をどうぞ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 82 ＞ 82 ＞ 失敗</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ｴﾝｴﾝ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>やる〜 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 99 ＞ 99 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>高すぎる </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>高〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>私もしよ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 80 ＞ 80 ＞ 失敗</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ダメですね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ここは何もないな </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ハウスルール貼るの忘れてたわ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「いてっ目に埃はいった」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あRPのつもりだったけどもしかしてこれファンブル？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>これは目にカボチャ入るな </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>それファンブルだな。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>目にカボチャ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>目にカボチャ入るらしい </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>96↑ファンブルの認識でいいかしら </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>カボチャの皮、瞼で割れるかな！？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いや、それは流石になのでクリスマスツリーの葉っぱが目に入りました。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>充分痛い </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>刺さりました。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>1ダメ受けといて。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ｸﾞｻｯ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>はい！！！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「いて〜（目を擦りながら歩き目を開けた先にクリスマスツリーがあり）いっっっっでぇ！！！！！！！！！！」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>これでファンブル率が上がるぜ！　ヒャッホゥ！ </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 白峰 雨月 ] HP : 9 → 8 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>私の卓では6版のままにすることにした、ファンブル </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「どうしたの？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「だ、大丈夫かしら……？」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ok〜 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>おけけ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>そっち見もしないでカボチャ叩いてます </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ぅう……うぅ………………………（しゃがみこむ）」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「目が……目に……葉っぱ……」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>うわぁ泣かせた </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うわ～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>泣かせたのクリスマスツリー </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>振り返ってうっきーの方寄ろう </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>これは悪いツリー </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>クリスマスツリーに泣かされる雄んなのこ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>目玉に応急手当は振れますか？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>目玉には無理です。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>失敗したら失明しない？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>それ抉られない？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>こわ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>目薬でこう……（） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「かわいそう」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>無理そうなのでそれだけ言います！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「こんな所さっさと出るぞ！！！！！！（逆ギレ）」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>目薬持ってたらいいよ。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「はいはい」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「お大事にね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「クソ〜」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>目薬とは書いてないが手当道具ならある </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>じゃあ幸運振って成功したら目薬あってもいいです（？） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>よっしゃ任せろ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=50　【幸運】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 2 ＞ 2 ＞ イクストリーム成功</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>何があるのこれ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>めっちゃあったし効き目が即効性のものでした。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>じゃあ鞄ゴソゴソしながら廊下出て </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「あ、あった。雨月」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>って後ろから肩ぽんぽん </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん？（キレ気味）」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>沸点が低い </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>沸点50℃くらい </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「目薬あったからさしてあげる」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「え゛っ」 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>めちゃ低 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「上向いて～。僕に跪け～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「謎のノリね……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「うっ……うっ………（めちゃくちゃまぶたをパチパチしている）」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>少しちょっかい出しただけですぐキレる </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>かわい〜！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>可愛い </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「う゛っ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>応急手当要る？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>危険すぎるだろ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いらぬよ〜イクス効果でそのまま回復してヨシ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>やったぜ </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 白峰 雨月 ] HP : 8 → 9 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>あぁ〜〜！痛みが引いていく〜〜！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「う゛っ！！！」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「はいよくできましたー」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>えらい。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ちょっとこぼれた分はティッシュでとんとんしてあげよう </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ﾊｧ……ﾊｧ……悪いな車載せてもらった上に目薬まで………」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>もはや親じゃん。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「痛み大丈夫かしら」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ママ……(違) </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ﾊｧ……うわ！！ もう痛くねぇ！！！」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>めちゃくちゃ笑ってる </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>目が覚める展開だったな。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（そんな効くっけ）」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「すげ〜今度同じやつ買うか」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>ほんまやで </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うん（まあいっか）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「痛みが引いたなら良かったわね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そろそろ次行こ～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ああ。<br>本当にありがとうな……どっかで借り返すぜ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>目薬を鞄にしまいました </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうしましょ<br>次は2階かしら」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>階段を駆け上る！！！（普通に登る） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきーには親指立てます </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>行くぞ行くぞ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ごー </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>。が？になるの、やめてくれ。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>一瞬ﾋｭｯってなった </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ありがちやね </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>沸点低い </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>わかりみ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>びびったんだよ（びびったんだよ） </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>（KPの）沸点が低い（はい？） </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>はい？ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>こわい </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>さて、あなた達は2階に続く階段を上がりますが〜 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>BGM先輩！？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>登っている途中、階段の踊り場に大量の血痕が残っていることに気がつきます。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>まさか転落死してそのまんま？（） </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>誰も片付けてくれんかったのか…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そして、今探索してきた中ではこの踊り場が館内で一番泥が多くついていることも分かりますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……」 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>墓に花あげる前にやることあるだろ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ゴーレム先輩！？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そして、ここで目星をどうぞ。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 81 ＞ 81 ＞ 失敗</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 5 ＞ 5 ＞ イクストリーム成功</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>つよ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>今日やたら出るな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>どうしたどうした </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>後半ファンブルかな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 41 ＞ 41 ＞ レギュラー成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ﾊﾊﾊ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。では成功した人は、その泥のつき方が膝をついてしゃがみこんでいた痕のようなものだと思いますね。 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>これアイデアでは？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>よく見たらわかるような事だったということで </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>どっちでも良さそう </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>なるほどね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「これは……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「泥、ここは特にひどいね」 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>よかった。<br>〈アイデア〉or〈目星〉のところを勝手に目星だけにしちゃったからやべってなってました。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ね、なんでかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ゴーレムはここに膝をついてたのかな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「こうやって……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「泥もだがこの血……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>自分に血と泥がつかない範囲でイメージしていた光景を再現します </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「膝を……なるほどね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ここで何かあったのは間違いないっぽい」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「何をするために膝をついたのかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>立ち上がって階段上を見上げてますね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「倒れてる人がいた……とか」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「噂の1つでは階段から落ちて死んだってのもあったけれど……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>大量の血ってどれくらいです？<br>転落死とかってそんなに血大量に流れない気がするんですけどそういうのはわからない？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>やはりプレス……（） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>んーわからないかな。<br>血溜まりの跡は出来ているね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ﾇ~ﾝ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「なにがあったかはわからないが……どうも異様な感じがするな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「遺体は見当たらないからそのまま放置された訳では無いのは分かるけれど……こんな中途半端に片付けるものかしらね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「水はあまり得意じゃないのかも」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>じめんタイプはみずに弱いからな </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>なるほどね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「上行こ。こっちが本命っぽい」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「事故とは聞いているが、仮に事故でなきゃ俺たちも危ない。<br>注意したほうがいいだろうよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>気を取り直して階段上がります　ずんずん </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうね、気をつけながら行きましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>もうええて！ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>こわ〜！ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>もういいよ！！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>？「まーだだよ！！」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では2階に来れました。マップを貼るよ。 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ドン！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>さてどこいきましょう。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>1番近い右にしよ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>うぃうぃ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>おっけ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「とりあえず、近くの部屋から見ていきましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「家札礼部の私室はどれかな～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「2階のどっかだとは思うんだが……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>近い部屋にずんずん </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はーい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そのまま開ける感じでね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うぇい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>扉を開けると、そこは客間のようでした。<br>ベッドとベッドサイドのテーブルがあり、サイドテーブルの上にはランプが乗っている。<br>ここでは目星がふれます。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 41 ＞ 41 ＞ レギュラー成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 64 ＞ 64 ＞ レギュラー成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 97 ＞ 97 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おい！！！！！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>いや草 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>出目が高い高い </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>目が壊れる！！！！！！！！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>そういえばささみちゃんはファンブラーだった </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>全てのダメージが目に </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>実はね、そう </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>うーんこの </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>じゃあベッドの足に自分の足の小指をぶつけました。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>1ダメです。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「うわっ目にホコリがいっでぇ！！！！！！！！！！！！！！！！！！！！！！！！！」 </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 白峰 雨月 ] HP : 9 → 8 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「今度はなに？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「貴方、さっきから大丈夫……？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「うぅ……うぅ……（うずくまる）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「なんか悪いものでも憑いてそう」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ベッド……ベッドが……足……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「自分に除霊してみたら？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>まさか家札礼部の呪い！？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「え？！　これ以上の痛みを背負えってのか」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そして目星に成功した人は、この部屋はもう数十年使っていないであろうということが分かります。<br>ベッドやサイドテーブルにかなり埃が積もっていますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「え？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>家荒らしに対する呪いか〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>今度はベッドに泣かされてる。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「貴方の除霊方法どんなのなの……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>この中で一番荒らしてない自信あるんだけど </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ここも埃だらけだね。お客なんてそうそう来ないだろうしな～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ﾊｧ……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「先生はこの部屋使っていなさそうだしハズレっぽいわね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（ここに遺稿は無いか……）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「足、見ましょうか？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>サイドテーブルって特に見れたり開けたりないですかね？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ただうっきーが怪我しただけ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ｶﾜｲｿ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「え、あ、あぁ……わりぃな……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>応急手当振っていい？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>サイドテーブルは何もないですね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>その間、楓くんは窓開けて換気してます </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おけ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いいよ〜 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【応急手当】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 3 ＞ 3 ＞ イクストリーム成功</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>なんなん？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おい！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>介護されてない？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ささみちゃんの運を吸い取ってる、僕らで </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>回復どうぞwww </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 白峰 雨月 ] HP : 8 → 9 </dd></dl>
+<dl style="color:#00bcd4" class="group tab_0"><dt>霜降谷 氷刃</dt><dd>応急手当<br> </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>すごい不毛な吸い取り方してる </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>どうなるんだろこれ、普通に回復だけかな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>肩こりも治るよ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>回復、、、だけかなぁ（特に出来ることがない） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「これでよし……っと、気をつけてね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ﾊｧ……霜降谷とかいったな。<br>本当に悪いなもう……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「どれもこれもこの動きにくい服のせいだ！！！！（逆ギレ）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「仕事の時に着替えればよかったのに」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……（ぐうの音もでない顔）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「まぁ、ここじゃ服はどうにもならないし諦めて気をつけましょ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あ～ホント呪われてんのか俺は……（廊下に向かいます）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>窓閉めてから続きます </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>すぐ左の部屋に行くぞ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>左の部屋へとっとこ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はーい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>それでは廊下に出て左隣の部屋まで。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ういうい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ガチャリ。寝室ですね。<br>ベッドとクローゼット、ベットサイドにはテーブルがあり上にランプが乗っています。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ここもベッドあんのか……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>こちらは使用感ある？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>埃が掛かっていたりはしないね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「こっちはさっきと違って主寝室っぽい」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ここは何かあるかしらね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「一人暮らしだしな、あっちは開いてもいなかったんじゃねえか？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>目星～とか～ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「使わないくらいならもう少し小さめの家にしておけばよかったのにね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ゴーレムにも部屋ってあったのかな～」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ここは個別で探索できる感じですね。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「今のとこ土だらけの部屋はないけど……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>はんはんは </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>クローゼット見よ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>んじゃテーブル調べるかね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ベッド……（トラウマ） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>クローゼットは家札が着ていたと思われる服が入っていますね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>朽無くんのほうついてくわ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>目星できる？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>トラウマになってて草 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ｶﾜｲｿ…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>なんか来た……って思いつつ何も言いません </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>特に目星はないですね。<br>服の枚数が少ないな〜って思うくらい。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>一応故人のもの一番ありそうだし…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「服少ないわね……私も服多い方でもないけれど」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>テーブルにはランプの他に何がある？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「頓着無さそう」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>テーブルは引き出し付きで、鍵穴もあります。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「人に会わないなら別に適当でいいしな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「それにこんな山奥だと新しい服買いに行くのも一苦労だしね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>鍵付きか……　開く？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>鍵がかかっている…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ガツッ！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「開かない」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「鍵つきか。<br>壊せねぇかなどうにか」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>蛮族発言 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「物騒ね……それは最終手段にした方がいいんじゃない？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「鍵探すって発想はどこ行ったの？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「めんどくさいし……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ベッド調べて鍵探しま～す！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「確かに」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ここに泥はないかしら </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ベッドですね。<br>シーツはきれいに整えられていますが、ところどころ泥が付いています。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>まさか何もないとか言う？ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>途中送信かーい！ </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>はい……/// </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>個別の意味！って思ったら </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>ベッドですね（完） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>目星振ってもよいよ。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 48 ＞ 48 ＞ レギュラー成功</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい、では楓くんはベッド周辺に鍵がないかと探しますね。枕をどかしてみると、そこには小さな鍵が隠すように置かれてました。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おっ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「鍵はっけーん」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>てってれー！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>振りむくとそこには今にも壊そうとしているうっきーが！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>鍵を　手に入れた！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「やったわね、早速試してみましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ではうっきーにタックルします </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ぐわっ！」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「鍵開けるから退いてねー」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>幸運失敗でテーブルの足に膝をぶつけます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=0 【幸運】 1D100 ＞ 85</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>幸運0で草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>0で草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>失敗で草 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=60 【幸運】 (1D100&lt;=60) ボーナス・ペナルティダイス[0] ＞ 26 ＞ 26 ＞ ハード成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>あれ～～？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>自ら確定失敗を選んだのかと。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あごめん振りなおしちゃった </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ぶつけませんでした！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>違　い　ま　す </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いいよ別にw </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきー吹っ飛ばして鍵開けますね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「仮にも怪我人に……」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はーあい </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「物騒なことしてるからよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「今の、僕流の除霊」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では見つけた鍵を使ってみるとぴったり合いますね。<br>引き出しが開けられるようになりました！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「開いた～」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「鍵付きってことは相当だろ、見てみようぜ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「中身は何かしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>皆来たの確認して引き出し開けるよ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>うぃっす </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>引き出しを開けると、中には日記らしきものがしまわれていますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「日記？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>取り出して、テーブルの上に置きます </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>中見てみようか </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>のぞきこみこみ〜 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おなじく～ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>●家札の日記<br><br>【数年前の日付】<br>「ゴーレムを生成することに成功した。これで面倒な家事は奴に任せられるだろう。」<br><br>「ゴーレムの奴がどんどん大きくなっていて、いちいち天井にぶつかるので家事がままならなくなっている。困ったものだ。」<br><br>「いろいろと研究をした結果、ゴーレムの成長を止めることが出来たようだ。<br>これで掃除や料理は何とかなるだろう。洗濯は濡れた布を触るとやはり溶けてしまうようで汚れてしまうのが困ったものだ。洗濯は私がやるしかないようだな。」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>【数か月前の日付】<br>「泥太郎がひらがなをすべて覚えたようだ。話せはしないが、言葉は理解しているようなのでこれで意思の疎通が図れるかもしれない。最初は家事をやらせるだけの泥人形のつもりだったのに、すっかり家族のように感じている。これまでの人生孤独な時間の方が長く、独りが気楽だと思っていたが人間でない泥太郎となら、良い家族になれるかもしれないな。」<br><br>「取材が来ている時に泥太郎が出てきてしまって、鉢合わせてしまうところだった。<br>泥太郎には、陽の出ている間には地下室から出て来ないように言い聞かせておいた。」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>【亡くなる前日の日付】<br>「どうやら、私の命はもう長くないようだ。幸い、この家は持ち家だから誰にも渡らないようにしておけば、泥太郎は幸せに暮らせるだろう。明日にでも、弁護士先生に相談しておこう。泥太郎はいつまで生きるのだろうか。独りにしてしまうことだけが申し訳ない。」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>気になる部分は以上となりますね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>泥太郎！？！？？！？！？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>かわいすぎるだろ　ネーミングセンスが </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふぅん……やっぱり、愛着が湧いてたのね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>泥太郎、めちゃくちゃそのままの名前ですごくいい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>盤面のアイコンに内容を貼り付けておいたのでそちらからいつでも確認できるよ〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>可愛いよね、泥太郎ってネーミングセンス。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ひらがなまで覚えるのか、ハイスペックなんだな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>地下室……　まさか物置……（） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「成長止められたんだ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「じゃあそんなに大きくないのかな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>天井にはぶつかるが </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「この時間なら地下室にいるかもな、まだいればだが……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「地下室なんてあった？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「地下に繋がる道とか見落としてたのかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うーん」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お宝もそこにあったりして……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>気になって来た楓くん </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「この部屋には見当たらないしな、原稿」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そうそう」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（あれ、遺稿のこと話したっけ）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「可能性は高いかもしれないわね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あれそうか宝としか聞いてないっけ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>きっとどこかで声に出てたに違いない </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>俺は遺稿を盗み見に来た！！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「まあいっか。楽しみだな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「一応隣の部屋も見よっか」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>そこにあったら困るし </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ああ、一応な」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうね、出来れば地下に行く前に見つかるといいのだけれど」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「あんまり鉢合わせたくないしね～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>廊下出よう！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はーい。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>廊下に出て隣の部屋に入ろうとしますが、鍵がかかっているようで扉は開かないですね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ふむ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ここも鍵か。<br>どうにか壊せねぇかな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「もう、壊す前に探そうとしなさい」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「じゃあここは後回しか～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「鍵がかかってるとなると、ここも臭いかも」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「めんどくせ～、どこにあンだろな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……地下室？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「もしかしたら屋根裏の可能性もあるかもしれないわ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そういえば、屋根裏にはどうやって入るんだろう」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「この部屋から？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>鍵かかってる扉指差し </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「上も下もよくわかんねぇな、入り口が」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「うーん……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>廊下の天井に入り口らしき場所はない？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ふむ。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>天井を見上げてみると、廊下の天井部分が扉になっており、取っ手が付いていることに気がつけますね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>おーっと </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>おるやん </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>屋根裏扉「ここだよ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>では上見上げて、「あ」と口を開けます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「扉あった」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あら、本当」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>見上げたまま指差すね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ほんとだ、なるほどな」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なんか道具とかいるやつ？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>梯子はないか～？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ゴーレムなら届きそう（使役） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>梯子開けた時に出てくるタイプかな </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そうですね。開けるには取っ手を引かないといけないのですが、みなさん手が届かないです。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なるほどね </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>肩車とかで出来ないカナ……って思ったけど正攻法ゴーレムにしてもらうのかな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>天井も高そう </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「届かなそうだな。<br>ま～まさか上に宝物なんて置かないだろ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「物を隠すと言えば屋根裏だけど」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>お、肩車もありですよ。判定が必要になりますが。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ないとは言いきれないわね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>肩車で届く高さか </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>だがSTR45だ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>やるか。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>やろやろ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>STR、80！！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>つよい！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>探索要員を担ぎ上げようってことでうっきーは下 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>；； </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>目星50のファンブラーはお留守番よ！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>肩車の判定な～んだ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>STRとSIZなので〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>80と65か </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>数値的にうっきー下、楓くん上が安牌だけど男が上の肩車は……………… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>うっきっき50わよ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>SIZ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あ、対抗か？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そそ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃあ、battle…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>氷刃SIZこの中だと高めなのよね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>俺が55です </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>小さい </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>だが男が上の肩車は……　当たるので……（） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>まぁ…… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>別にうっきっきは1㎜も気にしないし…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>まあ過去にやったことあるから僕も気にしていませんが </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>まあ同性のが良くない？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>まあ失敗してもそんな死ぬわけじゃないので氷刃が上でも大丈夫でしょ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>75と65で振っていいんだっけ？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>失敗したら交代しよう </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>これ忘れちゃったんだけど65%で成功かな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あ、気にするなら任せるわよなんでも </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>対抗は成功度で競う </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あそうか7版は別か </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>お互いに振って、成功度高い方が勝ち<br>同じ場合は元の数値高い方が勝ち </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ほんほん </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>もう一生6版ルール抜けない </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>こっちはsizで振ればいいのかな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=80 【STR】 (1D100&lt;=80) ボーナス・ペナルティダイス[0] ＞ 97 ＞ 97 ＞ 失敗</dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>がーんばれ♡ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おい！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ワロタ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>うーんこの </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>一応振っとくか…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=65　【SIZ】 (1D100&lt;=65) ボーナス・ペナルティダイス[0] ＞ 19 ＞ 19 ＞ ハード成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>はい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>はい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なに？これ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>じゃあ……そっすね…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>持ち上げる前に足が攣りました。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ヴァ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>さっきのベッドの傷かな？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ｱｶﾞ……ｱｶﾞ…………」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>こりゃ大変だ！もううっきーは肩車（下）はできねぇ！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「膝がくがくだけど大丈夫？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ｳｸﾞ……ｳｸﾞ…………」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「上げてもらおうかと思ったけれど……難しそうね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ｱｼｶﾞ……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>氷刃が下になるか〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>うっきー以外イクス出してるのに1人だけファンブル出し続けるの本当におもろい。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ﾊｧ……ｲﾀｲ……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「すまん……本当に……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「大丈夫？無理しないでね？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>うっきっき上でいいんよね？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（絶対何か憑いてる）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>楓くんは横で見てます </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>そうだね〜逆でしよ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【SIZ】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 58 ＞ 58 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>まあ…… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>いいんだけど…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=55　【STR】 (1D100&lt;=55) ボーナス・ペナルティダイス[0] ＞ 17 ＞ 17 ＞ ハード成功</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>はい </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>つよい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>はい。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「うぅ……釈然としねぇよ......」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「よいしょ……っと、届くかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お～。氷刃、力持ち」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>とりあえず取っ手引き～の </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、私もこんな力があったとは意外だわ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい、取っ手を引くと扉が開きますね。屋根裏に続く階段が出てきました。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃあぐいっと下に </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>めっちゃ入りにくそう </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ｶﾞﾀﾝｶﾞﾀﾝ……　階段が降りて中に入れるようになったよ。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>思ってたんと違った（？） </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ふぅ～悪いなホント」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「いえいえ、こちらこそありがとうね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「二人ともご苦労～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>低みの見物 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>新概念 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「じゃ行くか……（足をさすっている）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「上に上がりましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ごーごー」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>屋根裏に移動！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>それでは屋根裏部屋にゾロゾロと </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>屋根裏部屋にやってきました。<br>部屋の中は、画用紙が一面に散らばっていますね。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>画用紙には、子供が書いたようなつたない文字で 「れいぶ」「ともだち」「やくそく」などの文字が書かれています。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>屋根裏部屋では目星がふれます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 86 ＞ 86 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あらま～ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 30 ＞ 30 ＞ ハード成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 25 ＞ 25 ＞ ハード成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ぐぬぬ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>画用紙の他に何かないかと屋根裏部屋を探索してみると、鍵を1つ見つけることができますね。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>鍵すぐ見つかっていいな〜使うとこ忘れなくて助かる </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おっ破壊しなくてすむな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「このひらがなは例のゴーレムが書いたんだろうな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「みたいね。あら……鍵があるわ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>画用紙眺めてたけどそれ聞いて顔上げます </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「さっきの扉の鍵かな」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「だろうな」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ここって泥汚れひどい？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「戻ったら試しましょ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「よかった～、すぐに見つかって」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「失くしたら一大事だからなぁ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いえ、そうでもないですね。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、そうね」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「にしてもここはそう汚れてないように見えるな。<br>ただ書いたものを保存してただけかね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「確かに……もしかしたらここは先生にとっての宝物を置いてたのかしら」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「ふーん……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「名前書いてあるのとっといてるあたりニヤけちまうな～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、我が子のような可愛さがあったのかもしれないわね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>楓くんは先に下降りますね～ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん、なんだアイツやけに大人しいな」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>降りられました。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「まぁ、気持ちは分からないでもないわ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「私たちも降りましょ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「気を付けて降りろよ～（自分に言いな）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>左奥の扉の前にステンバーイ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あけろあけろ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はいはい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>じゃあ鍵を使ってガチャリ。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>この部屋は書斎のようです。<br>部屋の中には机と書棚があり、壁にはカレンダーと手紙差しが掛けられています。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「この部屋はどうかしらね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「本が多いな～。流石は詩人」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「仕事部屋のように見えるな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>机から見て見よ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>書棚に吸い寄せられます </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>句点つけては消す女 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃあカレンダーと手紙差しで </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>書斎の机の上には遺稿である『Swan Song』と題された詩が遺されています。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「……！！」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>タイトル回収 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>声掛けるのも忘れて最初読み始めるかも </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>熱心なファン </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>書棚は難しそうな本がたくさんありました。（何もない） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うゎむずかしそ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>首傾げてました </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>壁に掛けられたカレンダーには「検査」や「雑誌取材」などの書き込みがあります。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>病気だねぇ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>手紙差しに病院からの通知や雑誌社からの取材依頼の手紙がある。<br>病院からは「検査結果について大切なお知らせがございますので、至急ご来院ください」というような内容です。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>日記でももうすぐ死ぬ的なの言ってたもんなぁ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……まぁ、そうなんだろうなぁ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>詩の内容自体は桜が舞い散ったり、瞳を閉じたり、翼を広げたり震えたりしているような感じだが、添え書きがされています。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「どうなんだろう……（本を解読できない）」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ほんむずかしい。。。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>感想おもしろすぎるだろ詩の </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>翼を広げたり震えたりね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>『大切な友人　君を置いていくことを許してくれ　この館は君のために残す』 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>という添え書きです。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「…………」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>2人に目を向けておいでおいでしよ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん？　なんだ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「お宝、見つかったわよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>楓くんは本を逆さまにしていました </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>かわい〜！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「え、ほんと」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>駆け足でそっち行こう </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>手に持ったやつみせみせしよ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>食い入るように見てますね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>後ろからのそのそついてきます<br>お宝そんなだからね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「これが家札礼部の遺稿……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>お祓いに使えそうなものを物色しつつ二人の様子をうかがう感じで </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あと、添え書きも一緒にあったわ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「む……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……遺書？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「みたいよね、遺書にしては簡略的だけれども」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「おっと遺書か」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ずいずい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ちょっと見せてくれ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（泥太郎、漢字読めるのかな）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>確かに </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「どうぞ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>伝えるつもりなかったんだろうな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ふ～む……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「こいつは流石に焚けねぇや。<br>大事なモンだろうしな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、優しいのね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そういえば雨月、家札礼部の霊はいたの？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「さあ、今のところわかんねぇけど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そっか」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「……さて、私は満足したわ。幼い頃からの憧れの詩の新作を読むことが出来たし……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「うん。……遺稿も見つかったし、これ以上ここにいる理由も無くなっちゃったな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>これは持ち帰れねえ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうね、帰りましょ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>綺麗に元あった通りに戻そうね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ま、ここの家の貸し借りはもうとっくに終わってるみたいだしな……<br>あ、そうだ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「いや、僕は雨月を送ってあげないと……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきーの方見ます </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あのさ、階段の血……<br>俺たちで後で拭いてやろうぜ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「持ち主がきれいにできないらしいからよ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「そういえばそっか」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、優しいのね。付き合うわ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>結局死因なんだったんだろ　まだ地下室見てないしな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「掃除か～。腕が鳴るな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>腕ぶんぶんしながら廊下向かいます </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>どうする？　これ地下室見てく？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>地下室、どこだよ！！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>探すところから……（） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>行き方分からないし現状行く理由がないんだよね…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>同じく </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>理由はこっちでつけるわよ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ただなんかこのまま帰ったほうがゴーレムくん幸せそうな気がしなくも、ない </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>地下行ってすることなんてゴーレムくん消すのかな？ぐらいしか考えつかないんだよね…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>んまあ調べられるんなら調べたい探索者の性 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>遺言伝えてあげるとか？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>筆談でね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>読めないし </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>なるほどね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃあ行ってみるか </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>いや、聞けはするのか </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>はーい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あ～それとさ、悪いんだけど一応ここの地下室も見てっていいか？<br>危ないかもしれねぇけど……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「泥太郎に会うの？」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「何か気になることでもあるのかしら」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「もし下に悪いもんでも溜まってたらマズいし。<br>それにその遺言って泥太郎読めないんだろ」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「意思疎通が取れるか知らんけど」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「意思の疎通は取れるって言ってたっけ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>そういや日記にあったなと </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「そうなのね、それなら乗りかかった船だもの。付き合うわ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>筆談すべきは泥太郎の方だった </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「使役関係になくてもいけるならまあ、どうせだしな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「雨月が残るなら僕も残らないとな～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>車の鍵チャラチャラ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>よし、残留！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あ、悪いな」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃあとりあえず一階に…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>今何時なんだろな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お礼はモンブランでいいよ～」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>16時くらいです。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ついて行きます </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>そこそこ夕方だ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ま、マジで二人には助けられてるしそれくらい全然」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>これは氷刃ちゃんも一緒に帰る流れだな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>まだ帰らんが </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>乗せていってもらお🚗³₃ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>未成年に奢ってもらうアラサー二人…… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>一階でとりあえず階段回り見てみるか </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ｳｰﾝw </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>う～んこの </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>一階廊下で地下室への道は見つからないかな～ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>見つからないですね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>物置はどう？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>物置は目星失敗してるから… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ｱ~ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>そういえば法律変わったから未成年は17までだった </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ふってもええのよ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>何を？？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>目星 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>再チャレンジできる？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>時間経過してるので </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ﾝ助かる </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>いよっし </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 76 ＞ 76 ＞ 失敗</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>…… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=50 【目星】 (1D100&lt;=50) ボーナス・ペナルティダイス[0] ＞ 84 ＞ 84 ＞ 失敗</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 93 ＞ 93 ＞ 失敗</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>はい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>帰るか </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>何も無いな（確信） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>…… </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>掃除して </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>なにもないな </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ねぇや！」 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>良くはないが流れが理想的すぎる </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「掃除しよ～」 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>天才的 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>前半のクリってそういうこと </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「おうおう、やってやろ～ぜ（腕まくり）」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ある程度なら我慢できるけれど埃っぽい所って体調悪くなるのよね……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>エプロンの紐を締め直してます </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>こいつのエプロンボタンだったっけ（知らん） </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ｊ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なんか言って </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃあこうね、キッチンとかからこう水用意して……拭いて…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ｷｭｯｷｭｯ…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>廊下の泥も一応ね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>(A;´･ω･)ﾌｷﾌｷ;;;;;; </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ちょっと顔しかめながらちゃんとお掃除します </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>泥太郎が困らんように乾拭きもしっかりね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>優しいな。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>仕事が好き </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ｱ~絶対この服でやることじゃね～」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「わかり切ってるのにちゃんとやるから、意外と真面目だよね」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うっきーの近くに水は置かんようにしよ（） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ｺﾎｯｺﾎｯ……私自分の部屋の掃除も人に任せてるのだけれど……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「『意外と』はいらねぇのよ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ドジっ子だからね！() </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「あ～ほら無理するな」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「（氷刃の家にも使用人が……）」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>今、楓くんの中の氷刃ちゃんルームが泥にまみれた </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>漫画家だからアシスタントでしょ！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、お気遣いありがとう<br>けど皆してるもの、私だけ休むのも悪いし大丈夫よ」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>氷刃のアシスタント掃除もやらされてるなんて大変ﾀﾞﾅｰ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「じゃ～雑巾洗う担当な、俺と朽無で埃っぽいとこはやるから」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そういう感じの、掃除 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「任せろ～」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ふふ、ありがとう。お言葉に甘えるわ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>屋敷丸掃除して帰るか～ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃ帰りモンブラン奢って解散！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>いい事したな〜！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>食え、モンブランを </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いい汗かいたね！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>でもそろそろ時間的に泥太郎出て来んか？（） </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>夜だもんな </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>屋敷丸掃除したらまぁ結構時間経つね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>どうしよう侵入者だ！とか言って殺されたら（ない） </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ざわ…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>まぁ……そうだな。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そろそろ帰ろうか、と玄関に向かっていた3人でしたが </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>なにやら物置から物音がすることに気がつきます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おっ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>倉庫じゃん！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>やっぱ物置やん！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ん？　あっちからなんか聞こえねぇか？」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「えー？　あっちはさっき掃除したけど……」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「何かしら？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>不思議そうに物置を眺めてます </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>同じく </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>もしかして……とは思っている </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>やがて扉が開く音がして、べちゃり、べちゃりという音を出しながらその正体を表すことでしょう。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>掃除したのに！！ </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>ｶﾜｲ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>めちゃ思ったよ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>これは泥太郎 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>そら愛着もわくわ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>あなた達の前に姿を見せたのはゴーレムでした。<br>彼が泥太郎なのでしょう。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>SANC…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ありますとも。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ですよねー！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>【SAN値チェック (0/1d6)】 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>低いんよな〜って確認しに行った </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>はい。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=70　【SANC】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 21 ＞ 21 ＞ ハード成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=59 【SAN値チェック】 (1D100&lt;=59) ボーナス・ペナルティダイス[0] ＞ 31 ＞ 31 ＞ レギュラー成功</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=38　【SANC】 (1D100&lt;=38) ボーナス・ペナルティダイス[0] ＞ 46 ＞ 46 ＞ 失敗</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ひ、氷刃ーーッ！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>1d6 (1D6) ＞ 2</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>1!1!1! </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>2。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>許す（？） </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 霜降谷 氷刃 ] SAN : 38 → 36 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>まぁまぁ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ちょっとウッてなりましたね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「……あ」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>凝視！！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「あ、アレが……」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「でっっっっけ」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>泥太郎はあなた達を見つけると、またべちゃりと音をいう音を出しながら近寄ってくるでしょう。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>とりあえず黙って見てますね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>こ、ｺﾛｻﾚ……？ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>警戒しつつ…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>え~ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>半歩下がろ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>近寄ってくる泥太郎ですが、やがて敵意をもってこちらに近寄ってきてることがわかります。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>戦いだーー！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ﾋﾋ~~~ﾝ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「怒ってる？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「うわ、そうか不法侵入者ではある俺たち」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>説得できんかな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「でも、言葉は理解できるんだよね」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「話せば分かってくれるかしら……？」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「その……はず……」 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>交渉技能、ナシ！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>泥太郎は変わらずこちらにゆっくり近づいてくるね。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ので、距離を取ります </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>まぁ、なんというか。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>はい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>話してる間に距離詰められちゃいますね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>説得50！　威圧40！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>はい </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>戦闘だな！？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。このままですと戦闘に入ります。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>説得60です </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>逃げるか戦うかって感じ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>でも殺したくはねえ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>わかる </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>説得する時間なさそうな感じですね　きっと </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>なら逃げますが…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>逃げるか〜逃げ足なら早いぞ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>皆逃げるなら逃げる～ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>「お邪魔し過ぎたみたい」 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>「ま、やることはやったな」 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>「ええ、確かに」 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>アイデア振ってみてもいいよお </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>CC&lt;=65 【アイデア】 (1D100&lt;=65) ボーナス・ペナルティダイス[0] ＞ 97 ＞ 97 ＞ 失敗</dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>CC&lt;=65　【アイデア/INT】 (1D100&lt;=65) ボーナス・ペナルティダイス[0] ＞ 16 ＞ 16 ＞ ハード成功</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>CC&lt;=60　【アイデア/INT】 (1D100&lt;=60) ボーナス・ペナルティダイス[0] ＞ 49 ＞ 49 ＞ レギュラー成功</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おい！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>最後までやる？？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>出目たかいなぁ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そのファンブル？？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>できそうならしたいね </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>もうすぐ終わるなら駆け抜けたいわね、日程的に </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そうわね、よろしく頼む </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>あ、いやこれはファンブルの話（） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>最後までっていうのは </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>わからねーよ！！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あっ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>まぁ私から提案したアイデアなので、ファンブルはスルーします。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>そういうことね笑 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>さて成功者！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>3人中3人が勘違いした </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>家札と泥太郎の関係は友人ですね。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ですが、あなた達と泥太郎の関係は友人ではないですね……<br>何も知らない泥太郎にとって、あなた達は侵入者としか認識していないのだろうと推測できます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>そらそうだ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>まぁそう </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>友達になろう </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>実際そう </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>実際侵入者だし </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>誰？ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>あごめんスマホうつったら顔消えた </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>それに彼は泥太郎の名前のついたゴーレムなので、思考回路も自分達人間とは全く異なると思われます。<br>何か声をかけても、それに何かしらの行動で応えてくれるとは断定できないですね。 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>いかん突然の腹痛 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>数分離脱 </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>うい </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>やはり帰るしかないのでは？ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>帰ろうぜ </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>もど </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>よし、モンブランだ </dd></dl>
+<dl style="color:#607d8b" class="zatsudan"><dt>KP</dt><dd>おか </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>おかか </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>はい。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>DEXとか……？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>いや、帰るなら宣言だけでいいわよ。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>はいさ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>じゃあ家札邸を立ち去るということでよろしい？ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ところで泥太郎って足早い？ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>のそのそしてます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>んじゃまあ帰るってことでいいんだけど </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>駆け足で距離取りながら、鞄からスケッチブックとペン取り出して泥太郎と家札の似顔絵を走り描きしたいです </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>家札が顔出しNGだったらそのまま帰ります </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>いえふだって書いた人型描けばいいよ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>んー </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ちなみに描けてもびらっと投げて帰ります </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>まぁ、何年に1回かは顔出ししてたってことで！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>いえい </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>家札の遺影 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>…… </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ゲラなので笑っちゃった。敗北 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ががっと描いて玄関先で泥太郎の方に投げて帰ります（真顔） </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>では楓くんは2人の似顔絵を描くことが出来ることでしょう！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>置き土産だ……　あばよ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>エンディングいくよお </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>おー </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>モンブラン頼む！ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>あなた達は家札礼部と、泥太郎の館を後にする。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>館を出たあなた達が振り返ると、そこには庭に作られた墓に花を手向ける泥太郎の姿が見える。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>楓が書いた2人の似顔絵を泥太郎が拾い上げる。<br>それを見て、彼が何を思ったのかは分かりませんが……ただただその似顔絵をじっと見つめていました。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>彼は大切な友人である家札との約束を守り、自らの命が尽きるその時まで、家札の墓に寄り添い続けることでしょう。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>Best End </dd></dl>
+<dl style="color:#38b48b" class="zatsudan"><dt>朽無 楓</dt><dd>Bad Endに空目した </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おっとぉ〜 </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>白峰 雨月</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>p.s このあと3人はモンブランを食べに行きましたとさ…… </dd></dl>
+<dl style="color:#00bcd4" class="zatsudan"><dt>霜降谷 氷刃</dt><dd>わかりみある </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うめがった </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>俺のおごりな！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>モンブランエンド </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>シナリオクリアです！！お疲れ様でした！！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>わ〜〜〜〜〜い </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>年下の金で食うケーキうめえ！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>お疲れ様でした〜！！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>お疲れ様でした！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おつかれさ〜んでした </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>感想としてはファンブル多すぎ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>ほんと草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>もってるわ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>クリア報酬<br>生還(ゴーレムの真実を知った上で倒さなかった場合:    SAN 値回復 +1D10       </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>1d10 (1D10) ＞ 10</dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>1d10 (1D10) ＞ 9</dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>久々のTRPG緊張するな〜と思ったがなんも変わっとらん </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>あとは各自成長！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>やったぜ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>1d10 (1D10) ＞ 1</dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 朽無 楓 ] SAN : 70 → 79 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>おい！！！！！！！！！！！！！！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>最高 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>俺だろ掃除の提案したのはよ！！！！！！！！！！！！！！ </dd></dl>
+<dl style="color:#888888" class="main"><dt>system</dt><dd>[ 白峰 雨月 ] SAN : 59 → 60 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>（ささみちゃんの出目が）なんも変わっとらん </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>やっぱりそっとしておくのが良かったのかしらね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そうっぽい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>その通りでございます。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>泥太郎が平穏でいられるならOKです </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>死因はなんか病気とかで気絶→転落って感じかしらね </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>家札と泥太郎は信頼関係を築けていたので、泥太郎も支配されているという認識はなかったのです。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>仲良しだったんだな〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>家族すぎる </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>普通に階段を踏み外しちゃったみたいですね、家札さん。 </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>かわいそう </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>不運すぎる </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>まあ苦しんでないなら……………………… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>これ、警察か報道関係者がいればわかる情報なんですけど〜 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>死亡状況に詳しい探索者(警察関係、報道関係など)がいれば、「家札の遺体のガウンに掴んだような泥の跡が付いていた」ということを知っていてOK。(泥太郎が、落ちそうになる家札を掴んだが、支えきれなかった) </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あ〜 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>悲し </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>泥太郎が助けようとした痕跡があるんですよね。 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>すげー悲しい </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>膝立ちは助けられなくて呆然とした感じかな </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>泥太郎………… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>そんな感じ……切ない </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そうわよね〜 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>まあポジティブに考えると病院で会えないまま亡くならなくてよかった </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>忠犬ハチ公になるところだから </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>お見舞いには行けんもんな…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>うむ… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>お墓も作れんしな </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>あの墓に骨なさそうだけど </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ないけど、形だけのね。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ないと思うけどそれでも作る優しさはすごい </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>こういうシナリオ大好きなんだけど、15年と30年の表記違いは困惑しました！！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>しゃ〜なししゃ〜なし </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>そういうこともあるよね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>元々30年とかで作ってたんかもね 直し忘れとか </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>たぶんそう。 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>久しぶりにハートフル（）シナリオで癒されました（正気か？） </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>実際いい話で癒やされた </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>あといい具合に短時間でよかった </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ね </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ダイスだけが不満点だよ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>草 </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>草 </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ね〜サクサク進んだから8時間で終わった </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>いいシナリオでした　ありがとう </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>楽しかった〜！ </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>そこそこRPもはさんで進み良かったのは最高やね〜 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>KPありがとな！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>うむ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>ご満足いただけて私も嬉しゅうございます。 </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>じゃ、俺はそろそろ寝る準備する </dd></dl>
+<dl style="color:#e91e63" class="main"><dt>白峰 雨月</dt><dd>ので、また…… </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>成長チェックしなよ～ </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>また遊ぼう！！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>ありがとう〜！！久しぶりの卓楽しかった！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>またな…… </dd></dl>
+<dl style="color:#607d8b" class="main"><dt>KP</dt><dd>お疲れ様でした！！ </dd></dl>
+<dl style="color:#38b48b" class="main"><dt>朽無 楓</dt><dd>お疲れ様でした～～！ </dd></dl>
+<dl style="color:#00bcd4" class="main"><dt>霜降谷 氷刃</dt><dd>お疲れ様でした！ </dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 20 ＞ 20 ＞ ハード成功</dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>CC&lt;=70　【図書館】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 74 ＞ 74 ＞ 失敗</dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>1d10 (1D10) ＞ 8</dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>遺影 </dd></dl>
+<dl style="color:#00bcd4" class="group tab_0"><dt>霜降谷 氷刃</dt><dd>思い出し笑いしちゃった </dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>僕のギャグで笑ってくれるの君だけだよ…… </dd></dl>
+<dl style="color:#00bcd4" class="group tab_0"><dt>霜降谷 氷刃</dt><dd>ふふww </dd></dl>
+<dl style="color:#00bcd4" class="group tab_0"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【目星】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 37 ＞ 37 ＞ レギュラー成功</dd></dl>
+<dl style="color:#00bcd4" class="group tab_0"><dt>霜降谷 氷刃</dt><dd>CC&lt;=70　【応急手当】 (1D100&lt;=70) ボーナス・ペナルティダイス[0] ＞ 6 ＞ 6 ＞ イクストリーム成功</dd></dl>
+<dl style="color:#00bcd4" class="group tab_0"><dt>霜降谷 氷刃</dt><dd>はい解散 </dd></dl>
+<dl style="color:#38b48b" class="group tab_0"><dt>朽無 楓</dt><dd>おつかれさんした </dd></dl>
+
+</div>
+<footer></footer>
+
+<script>
+const Hide = (checkbox) => {
+  const elmntTarget = document.getElementsByClassName(checkbox.id)
+  for (let intCount = 0; intCount < elmntTarget.length; intCount++) {
+    const message = elmntTarget[intCount]
+    const contexts = message.className.split(' ')
+    let elmntChecked = checkbox.checked
+    contexts.forEach((context) => {
+      const contextCheckbox = document.getElementById(context)
+      if (contextCheckbox) {
+        elmntChecked &= contextCheckbox.checked
+      }
+    })
+    message.style.display = elmntChecked ? 'none' : ''
+  }
+}
+</script>
+</body>
+</html>
